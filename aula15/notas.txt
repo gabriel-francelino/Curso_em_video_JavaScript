@@ -1,0 +1,7 @@
+ARRAYS EM JAVA SCRIPT
+
+funções basicas
+num.lenght  //retorna o tamanho do vetor
+num.push()  //adiciona um elemento na última posição
+num.sort()  //ordena o vetor
+num.indexOf() //retoan a posição de um elemento no vetor, ou -1 caso não exista

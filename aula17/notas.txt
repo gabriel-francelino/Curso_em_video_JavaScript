@@ -1,0 +1,13 @@
+CONSIDERAÇÕES FINAIS
+
+estudar daqui pra frente...
+functions
+modularização
+orientação a objetos
+expressoes regulares(RegEx)
+JSON
+AJAX
+NodeJS
+
+Como declarar um arrays de objetos
+let amigo = {nome: 'jose', sexo: 'M', peso: 85.6}

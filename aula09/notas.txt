@@ -1,0 +1,21 @@
+ENTENDENDO O DOM
+
+instalar a extensão: 'watch in chrome' e 'node exec'
+
+DOM - Document Object Model
+
+Árvore DOM
+
+                                       __meta
+          __location          __head__|__title
+windown__|__document __html__|__body__ __h1
+         |__history                   |__p
+                                      |__p__strong
+                                      |__div
+
+TÉCNICAS PARA ACESSAR ELEMENTOS USANDO DOM
+*TagName - getElementsByTagName('p')[1]
+*ID - getElementById('msg')
+*Name - getElementsByName('mg')[0]
+*ClassName
+*querySelector - querySelector('div#msg')

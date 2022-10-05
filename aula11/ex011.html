@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiro</title>
+    <style>
+        body{
+            font: normal 16pt Arial;
+            background: gainsboro;
+        }
+        input#ver{
+            background: rgb(89, 202, 129);
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificando nacionalidade</h1>
+    Nacionalidade: <input type="string" name="txtnac" id="txtnac">
+    <input type="button" id="ver" value="Verificar" onclick="verifica()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        var nac = document.querySelector('input#txtnac')
+        var res = document.querySelector('div#res')
+
+        function verifica() {
+            if (nac.value == "Brasil") {
+                res.innerHTML = '<p>Você é Brasileiro.</p>'
+            }else{
+                res.innerHTML = '<p>Você é estrangeiro.</p>'
+            }
+        }
+    </script>
+</body>
+</html>

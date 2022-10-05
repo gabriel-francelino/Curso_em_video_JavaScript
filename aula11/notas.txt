@@ -1,0 +1,5 @@
+node.js exec cuncionou com CTRL + ALT + N
+
+Tem também o Runner --> CTRL + SHIFT + R
+
+console.log para escrever em js

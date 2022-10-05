@@ -1,0 +1,14 @@
+EVENTOS COM MOUSE
+mouseenter - quando mouse entra na div
+mousemove - quando mouse se move dentro da div
+mousedown - qunado mouse clica
+mouseup - quando mouse solta o clique
+click - mouse clica e solta rapidamente
+mouseout - quando mouse sai da div
+
+pagina de refencia de eventos: Events Reference | MDN - javascript dom events list
+
+ESlint - extensão que acusa erro de código (aparentemente só funciona para arquivos js)
+
+dicas:
+*digitar div#nome + tab - termina de digitar o código pra vc 

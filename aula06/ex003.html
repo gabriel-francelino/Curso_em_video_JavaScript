@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(76, 76, 174);
+            color: white; /* comentário */
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!-- isso é um comentário -->
+    <p>Já me livrei da maldição!!</p>
+    <script>
+        //window.confirm("Está gostando de javascrtipt?")
+        var n1 = Number.parseFloat( window.prompt("Digite um número:"))
+        var n2 = Number.parseFloat( window.prompt("Digite outro número:"))
+        var s = n1 + n2
+        window.alert(`A some entre ${n1} e ${n2} é ${s}`) // concatenacao
+        // (number + string) concatenação
+        // (number + number) adição
+        // CONVERSÕES DE STRING --> NÚMERO
+        // Number.parseInt(n) - converte para inteiro
+        // Number.parseFloat(n) - converte para inteiro
+        // Number(n) - converte para float ou para string automaticamente
+        // CONVERSÕES DE NÚMERO --> STRING
+        // String(n) - converte qualquer número para string
+        // n.toString() - função que retorna o numero em string
+        // FORMATANDO STRINGS
+        // var s = 'JavaScript'
+        // 'Eu estou aprendendo s' --> não faz interpolação
+        // 'Eu estou aprendendo ' + s -> usa concatenação
+        // `Estou aprendendo ${s}` --> usa template string (placeholder)
+        // OUTRAS FUNÇÕES STRING
+        // s.length --> tamanho do string
+        // s.toUpperCase() --> converte para maiusculas
+        // s.toLowerCase() --> converte para minuscula
+        // MANIPULANDO FLOATS
+        // f.toFixed(<numero de casas decimais>) --> formata o número de casas decimais
+        // f.toFixed(n).replace('<troca uma formatação>','<por essa formatação>')
+        // n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) --> comando para exibir em formato monetário
+    </script>
+</body>
+</html>
